@@ -1,0 +1,119 @@
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align:baseline;
+font: inherit;
+}
+
+body {
+    
+}
+
+header {
+    height: 110px;
+    background-color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+.headlogo {
+    float: left;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+nav {
+    text-align: center;
+    float: right;
+    padding-right: 200px;
+    padding-top: 40px;
+}
+.main {
+    background: url(../images/menu.jpg);
+    height: 645px;
+    color: white;
+}
+.main h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 117px;
+    text-align: center;
+    padding-top: 200px;
+}
+.main p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 25px;
+}
+.menu {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 16px;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+.menu h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 16px;
+}
+.menu p {
+    font-family: 'Bree Serif', serif;
+    font-size: 12px;
+    color: #b7b7b7;
+}
+.feature h2 {
+    margin-left: 150px;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-bottom: 30px;
+}
+.dish {
+    margin-left: 150px;
+    margin-bottom: 250px;
+}
+
+.dish img {
+    margin-right: 30px;
+}
+.gallery h2 {
+    margin-left: 150px;
+    margin-bottom: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.gallery img {
+    margin-left: 150px;
+    margin-bottom: 250px;
+}
+footer {
+    height: 317px;
+    background-color: #3b3b3b;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.newYork {
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 90px;
+    float: left;
+}
+.france {
+    margin-right: 100px;
+    margin-top: 90px;
+    float: left;
+}
+.bottomNav {
+    margin-top: 90px;
+    margin-right: 100px;
+    float: left;
+}
+.copyright {
+    float: left;
+    margin-top: 70px;
+}
